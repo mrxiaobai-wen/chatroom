@@ -17,8 +17,7 @@ public class ChatDaoImpl implements ChatDao {
     @Autowired
     private SessionFactory sessionFactory;
 
-    @Transactional
     public boolean checkExist(UserModel user) {
-        return true;
+       return true;
     }
 }
